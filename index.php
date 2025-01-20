@@ -124,7 +124,7 @@
     if (isset($_POST['submit'])) {
         $imgname = $_POST['pic'];
         // echo $imgname;
-        $imglocation = 'photo/' . $imgname . '.jpg';
+        $imglocation = $imgname . '.jpg';
         // echo $imglocation;
     }
     ?>
